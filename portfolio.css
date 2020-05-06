@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: #eee;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    color: white;
+}
+/* HEADER SECTION START */
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.inner-header {
+    height: inherit;
+    width: 90%;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+}
+.nav-bar {
+    height: 100%;
+    float: right;
+}
+.nav-list {
+    display: table;
+    float: left;
+    height: 100%;
+    /* vertical-align: middle; doesn't work so I'll use padding insted */
+    padding: 22px;
+}
+.nav-link {
+    display: table-cell;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+     /* vertical-align: middle; doesn't work so I'll use padding insted */
+}
+.nav-list:last-child {
+    padding-right: 0;
+}
+/* HEADER SECTION END */
+
+/* WELCOME SECTION START */
+#welcome-section {
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+}
+#welcome-section h1 {
+    font-size: 6em;
+    font-family: 'Pacifico', cursive;
+}
+#welcome-section p {
+    font-size: 2em;
+}
+hr {
+    color: #eee;
+    margin: 0.5em auto 0.5em auto;
+    width: 23em;
+}
+.welcome-container {
+    display: block;
+    padding-top: 30vh;
+    text-align: center;
+}
+.icon-group {
+display: flex;
+justify-content: center !important;
+font-size: 30px;
+
+}
+.icon-list {
+    padding: 20px;
+}
+/* WELCOME SECTION END */
+
+/* ABOUT SECTION START */
+#about {
+    background-color: rgb(241, 180, 158);
+    text-align: justify;}
+.text-container {
+    margin: auto;
+    width: 65%;
+}
+.text-container p {
+    text-indent: 40px;
+}
+.text-container h2 , #projects h2 , .contact-container h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+}
+.about-li {
+    padding-left: 30%;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about-li li span {
+    font-size: 28px;
+    color: rgb(148, 145, 145);
+}
+.story {
+    padding-bottom: 50px;
+}
+.story p span {
+    font-size: 18px;
+    /* change color */
+    color: rgb(148, 145, 145);
+}
+/* ABOUT SECTION END */
+/* PROJECTS SECTION START */
+#projects {
+    background-color: rgb(158, 153, 153);
+}
+#projects p {
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+/* PROJECTS SECTION END */
+
+/* CONTACT SECTION START */
+#contact {
+    /* background-color: rgb(241, 203, 189); */
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: auto;
+}
+.contact-container {
+    display: block;
+    text-align: center;
+}
+/* CONTACT SECTION END */
+
+/* FOOTER START */
+footer {
+    background-color: rgb(31, 31, 31);
+    /* background-color: rgb(240, 210, 199); */
+}
+footer p {
+    text-align: right;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-right: 70px;
+}
+/* FOOTER END */
