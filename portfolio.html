@@ -15,7 +15,7 @@
     <body>
         <header class="header">
             <div class="inner-header">
-                <navbar class="nav-bar">
+                <navbar id="navbar" class="nav-bar">
                     <ul>
                         <li class="nav-list"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-list"><a class="nav-link"
@@ -83,12 +83,16 @@
             </div>
             <section id="projects">
                 <h2>Let's talk projects</h2>
-                <p>Bellow are my humble, very first projects<br>made with love, HTML5 and CSS using Visual Studio Code, Git and Github.</p>
+                <p>Have a look at my work<br>Find all my projects on my GitHub profile and some of them on CodePen</p>
                 <div class="project">
-                    <a class="project-title" href="https://codepen.io/silviameleg/full/wvKPvzB" target="_blank">
-                    <img src="https://codepen.io/silviameleg/full/wvKPvzB" alt="Project">
-                    <p><span><</span>Product Landing Page<span>/></p>
-                </a>
+                    <ul class="project-icon">
+                    <li class="icon-list project-tile"><a id="profile-link"
+                            href="https://github.com/silviameleg"
+                            target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li class="icon-list project-tile"><a
+                        href="https://codepen.io/silviameleg"
+                        target="_blank"><i class="fa fa-codepen"></i></a></li>
+                    </ul>
                 </div>
             </section>
             <section id="contact">
@@ -97,9 +101,6 @@
                 <hr id="contact-hr">
                 <div class="contact-icons">
                     <ul class="icon-group">
-                        <li class="icon-list"><a id="profile-link"
-                                href="https://github.com/silviameleg"
-                                target="_blank"><i class="fa fa-github"></i></a></li>
                         <li class="icon-list"><a
                                 href="https://www.linkedin.com/in/silvia-meleg-74b201155/"
                                 target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -107,9 +108,6 @@
                                 href="https://www.freecodecamp.org/silvia_mlg"
                                 target="_blank"><i class="fa
                                 fa-free-code-camp"></i></a></li>
-                        <li class="icon-list"><a
-                                href="https://codepen.io/silviameleg"
-                                target="_blank"><i class="fa fa-codepen"></i></a></li>
                         <li class="icon-list"><a
                                 href="mailto:silvia.meleg@gmail.com"><i
                                 class="fa fa-envelope"></i></a></li>

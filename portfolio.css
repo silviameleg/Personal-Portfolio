@@ -98,6 +98,7 @@ font-size: 30px;
 .text-container {
     margin: auto;
     width: 65%;
+    padding-bottom: 30px;
 }
 .text-container p {
     text-indent: 40px;
@@ -112,17 +113,18 @@ font-size: 30px;
     font-size: 25px;
     padding-top: 40px;
     padding-bottom: 40px;
+    text-align: left !important;
 }
 .about-li li span {
     font-size: 28px;
     color: rgb(148, 145, 145);
 }
 .story {
-    padding-bottom: 50px;
+    padding: 50px;
+    background-color: rgb(238, 192, 175);
 }
 .story p span {
     font-size: 18px;
-    /* change color */
     color: rgb(148, 145, 145);
 }
 /* ABOUT SECTION END */
@@ -140,10 +142,17 @@ font-size: 30px;
 
 /* CONTACT SECTION START */
 #contact {
-    /* background-color: rgb(241, 203, 189); */
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(158, 153, 153);
     width: 100%;
     height: auto;
+}
+.project-icon {
+display: flex;
+justify-content: center !important;
+font-size: 80px;
+}
+.project-tile {
+    padding: 10px 60px 50px 60px !important;
 }
 .contact-container {
     display: block;
@@ -153,13 +162,56 @@ font-size: 30px;
 
 /* FOOTER START */
 footer {
-    background-color: rgb(31, 31, 31);
-    /* background-color: rgb(240, 210, 199); */
+    background-color: rgb(190, 184, 184);
 }
 footer p {
     text-align: right;
     font-size: 18px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     margin-right: 70px;
 }
 /* FOOTER END */
+
+@media (max-width: 1350px){
+    .about-li {
+        padding-left: 15%;}
+
+}
+@media (max-width: 1000px){
+    .nav-link , .about-li , #projects p , .story p span{
+font-size: 18px;
+    }
+    .about-li li span {
+        font-size: 19px;
+    }
+    .story p , footer p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 690px) {
+    body {
+        min-width: 442px;
+    }
+    #welcome-section h1 {
+        font-size: 4em;}
+    #welcome-section p {
+            font-size: 1.5em;}
+    .icon-group { 
+        font-size: 20px;}
+    .project-icon {
+        font-size: 55px;}
+    .text-container h2, #projects h2, .contact-container h2 {
+        font-size: 27px;}
+    .text-container p {
+        text-indent: 25px;}
+    #projects p {
+        font-size: 13px;
+        }
+        .contact-container h2 {
+            padding-top: 0 !important;
+        }
+        footer p {
+            padding-top: 8px;
+            padding-bottom: 8px;}
+}
